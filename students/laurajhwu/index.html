@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5WNFKMYNGJ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5WNFKMYNGJ");
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>STYLiSH - Home Page</title>
+    <meta
+      name="description"
+      content="Stylish provides a large variety of trending fashion selections ranging from women and men's wear to accessories"
+    />
+  </head>
+
+  <body>
+    <header>
+      <section>
+        <a href="index.html" class="logo"
+          ><img src="images/logo.png" alt=""
+        /></a>
+      </section>
+      <nav class="menu">
+        <a href="index.html?tag=women" class="menu-item">女裝</a>
+        <a href="index.html?tag=men" class="menu-item">男裝</a>
+        <a href="index.html?tag=accessories" class="menu-item">配件</a>
+      </nav>
+      <section class="search-bar">
+        <form action="index.html" id="search-form" class="hide-content">
+          <input type="search" name="search" id="search-input" />
+        </form>
+        <img
+          src="images/search.png"
+          alt="search icon"
+          class="search-icon"
+          id="search-icon-normal"
+        />
+      </section>
+      <nav class="member-nav">
+        <a class="cart-nav" href="cart.html">
+          <div class="cart-icon-container">
+            <img
+              src="images/cart-mobile.png"
+              alt="cart icon mobile"
+              class="cart-icon"
+              id="cart-mobile"
+            />
+            <img
+              src="images/cart.png"
+              alt="cart icon mobile"
+              class="cart-icon"
+              id="cart-web"
+            />
+            <div class="item-counter"></div>
+          </div>
+          <span>購物車</span>
+        </a>
+        <a class="member-info">
+          <img
+            src="images/member-mobile.png"
+            alt="member icon mobile"
+            class="member-icon"
+            id="member-mobile"
+          />
+          <img
+            src="images/member.png"
+            alt="member icon mobile"
+            class="member-icon"
+            id="member-web"
+          />
+          <span>會員</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="campaign"></section>
+      <section class="container display-product"></section>
+    </main>
+
+    <footer class="more-information">
+      <div class="links">
+        <a href="#">關於 Stylish</a>
+        <a href="#">服務條款</a>
+        <a href="#">隱私條款</a>
+        <a href="#">聯絡我們</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="social-media">
+        <div class="line">
+          <a href="#"><img src="images/line.png" alt="line" /></a>
+        </div>
+        <div class="twitter">
+          <a href="#"><img src="images/twitter.png" alt="" /></a>
+        </div>
+        <div class="facebook">
+          <a href="#"><img src="images/facebook.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="copyright">&copy; 2018. All rights reserved.</div>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

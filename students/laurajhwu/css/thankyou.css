@@ -1,0 +1,49 @@
+main {
+  height: 100vh;
+}
+
+.thankyou-container {
+  padding: 200px 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3f3a3a;
+}
+
+.order {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.order-number {
+  background-color: #e9e0e0fd;
+  line-height: 24px;
+  padding: 0 4px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.continue-shopping {
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.continue-shopping:hover {
+  color: #8b572a;
+  cursor: pointer;
+}

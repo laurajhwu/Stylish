@@ -1,0 +1,55 @@
+main {
+  height: 100vh;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+.profile-container {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#profile {
+  display: flex;
+  margin-top: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.member-details {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 0 24px;
+}
+
+.member-details * {
+  margin: 24px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#profile img {
+  width: 200px;
+}
+
+#logout {
+  margin-top: 20px;
+  width: 30%;
+  height: 30px;
+  max-width: 100px;
+  background-color: black;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+
+#logout:hover {
+  cursor: pointer;
+}

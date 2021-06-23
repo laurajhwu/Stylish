@@ -1,0 +1,461 @@
+* {
+  outline: none;
+}
+
+select {
+  background-color: #f3f3f3;
+  border: 1px solid #979797;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #3f3a3a;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.wrapper {
+  padding: 20px 24px;
+  color: #3f3a3a;
+}
+
+.cart-header {
+  font-family: "NotoSansCJKtc", Times, serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+/* purchase items */
+.empty-cart-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: rgba(116, 0, 10, 0.87);
+  margin-top: 4px;
+}
+
+.purchase-item {
+  padding: 20px 0;
+  position: relative;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.purchase-item:first-child {
+  padding: 10px 0 20px;
+}
+
+.purchase-item * {
+  font-size: 14px;
+}
+
+.product-img {
+  height: 151.5px;
+  width: 114px;
+}
+
+.product-info {
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.product-name {
+  margin: 0;
+}
+
+.product-id {
+  margin-top: 20px;
+}
+
+.product-color {
+  margin-top: 24px;
+}
+
+.product-size {
+  margin-top: 12px;
+}
+
+.price-info {
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20.5px;
+}
+
+.item-quantity {
+  flex-direction: column;
+}
+
+.item-quantity .quantity {
+  margin-top: 12px;
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 7px 17px;
+}
+
+.price {
+  text-align: center;
+}
+
+.item-price,
+.item-total {
+  margin-top: 20px;
+}
+
+.delete-icon {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  right: 0px;
+  top: 53.75px;
+}
+
+.delete-icon:hover {
+  cursor: pointer;
+  content: url(../images/cart-remove-hover.png);
+}
+
+/* Shipping info */
+.shipping-info {
+  margin: 20px 0;
+}
+
+.shipment-options {
+  background-color: #e8e8e8;
+  height: 164px;
+  flex-direction: column;
+  padding: 10px 10px 0 10px;
+}
+
+.shipment-options * {
+  width: 100%;
+}
+
+.shipment-options label {
+  font-size: 14px;
+}
+
+#country,
+#payment-method {
+  margin: 10px 0 20px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 5px 17px;
+  font-size: 14px;
+}
+
+.reminder {
+  margin-top: 10px;
+  line-height: 26px;
+}
+
+/* Order Form */
+.form-header {
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.form-styling {
+  padding: 20px 0;
+  flex-flow: column wrap;
+}
+
+.form-styling label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.form-styling input,
+.form-styling .tpfield {
+  margin: 10px 0 20px;
+  border-radius: 8px;
+  border: 1px solid #3f3a3a;
+  height: 30px;
+  padding: 0 4px;
+}
+
+.form-styling input:focus,
+.form-styling .tpfield:focus {
+  border: 2px solid rgba(3, 3, 179, 0.87);
+}
+
+.order-form #name {
+  margin-bottom: 6px;
+}
+
+.order-form #name + aside {
+  color: #8b572a;
+  margin-bottom: 20px;
+}
+
+.delivery-times {
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 10px 0 10px;
+}
+
+.delivery-times input {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.delivery-times input {
+  cursor: pointer;
+}
+
+.delivery-times label {
+  margin: 0px 26px 0px 6px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/* total-amount */
+.total-amount {
+  margin-left: auto;
+  width: 240px;
+}
+
+.total-amount > * {
+  justify-content: space-between;
+}
+
+.items-total {
+  margin-top: 24px;
+}
+
+.shipping-fee {
+  margin-top: 20px;
+  padding-bottom: 24px;
+}
+
+.payment-sum {
+  margin-top: 16px;
+}
+
+.total-amount .title {
+  align-self: flex-end;
+  font-size: 14px;
+}
+
+.total-amount .amount span {
+  font-size: 30px;
+}
+
+/* confirm checkout button */
+#checkout-btn {
+  width: 100%;
+  height: 44px;
+  border: none;
+  margin: 36px 0 8px;
+  background-color: black;
+  letter-spacing: 3.2px;
+  color: white;
+}
+
+#checkout-btn:hover {
+  cursor: pointer;
+}
+
+.loading {
+  position: fixed;
+  top: 0vh;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: none;
+  flex-flow: column nowrap;
+  justify-content: center;
+  z-index: 100;
+  font-weight: bolder;
+}
+
+.is-loading {
+  display: flex;
+}
+
+.loading img {
+  margin: 0 auto 10px;
+}
+
+/* ========= Media Queries ========= */
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding: 47px 24px 148px;
+  }
+  /* purchase items */
+  .cart-header {
+    border: none;
+  }
+
+  .purchase-items {
+    border: 1px solid #979797;
+    padding: 40px 31px 10px;
+  }
+
+  .purchase-item {
+    border-bottom: none;
+    padding: 0 0 30px !important;
+  }
+
+  .purchase-item * {
+    font-size: 16px;
+  }
+
+  .product-info {
+    margin-right: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .price-info {
+    width: auto;
+    flex-basis: 50%;
+    align-items: center;
+    margin: 0;
+  }
+
+  .price-info > * {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .price-info label {
+    display: none;
+  }
+
+  .purchase-item:first-child .price-info label {
+    display: unset;
+    position: absolute;
+    align-self: center;
+    top: -67px;
+    font-weight: bold;
+  }
+
+  .delete-icon {
+    position: relative;
+  }
+
+  .item-quantity .quantity,
+  .item-price,
+  .item-total {
+    margin: 0;
+  }
+
+  /* shipping info */
+  .shipment-options {
+    flex-direction: row;
+    height: 74px;
+    align-items: center;
+  }
+
+  .shipment-options label {
+    font-size: 16px;
+    width: auto;
+  }
+
+  #country,
+  #payment-method {
+    width: 171px;
+    margin: 0 82px 0 20px;
+  }
+
+  .reminder {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .font-10 {
+    font-size: 16px;
+  }
+
+  /* form */
+
+  .form-header {
+    padding-bottom: 16px;
+  }
+
+  .form-styling label {
+    flex-flow: row wrap;
+    align-items: center;
+    width: 684px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .order-form #name {
+    margin: 0;
+  }
+
+  .order-form #name + aside {
+    margin: 10px 0 0 auto;
+  }
+
+  .form-styling input,
+  .form-styling .tpfield {
+    width: 574px;
+    margin: 0px;
+  }
+
+  .delivery-times {
+    width: 574px;
+    align-items: flex-start;
+    margin: 0;
+    align-items: center;
+  }
+
+  .delivery-times input,
+  .delivery-times label {
+    width: auto;
+    margin: 0;
+  }
+
+  .delivery-times label {
+    margin: 0 26px 0 10px;
+  }
+
+  .items-total {
+    margin-top: 40px;
+  }
+
+  .shipping-fee {
+    padding-bottom: 20px;
+  }
+
+  .payment-sum {
+    margin-top: 20px;
+  }
+
+  #checkout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    margin: 50px 0 0 auto;
+    font-size: 20px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+}
