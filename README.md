@@ -1,65 +1,36 @@
-# Front-End Class Batch #13
+# STYLiSH
 
-## Outline
+## About
 
-### Frontend Fundamental
+<p align="center">
+A clothing e-commerce website
+</p>
 
+## Technologies
+
+### Front-End
+
+- JavaScript (ES6)
 - HTML
-- CSS
-- JavaScript(ES6+)
+- CSS (Flexbox & Grid)
+- RWD
+- AJAX: fetch
 
-### User Interface
-
-- Responsive Web Design(RWD)
-- Flex and Grid Layout
-
-### React Libraries
-
-- React(Context, Hooks)
-- React Router
-- Redux
-- Styled Component
-
-### Third-Party Libraries
+### Third-Parties
 
 - Facebook SDK
 - Tappay SDK
 
-### Backend Framework and Cloud Service
+### Storage
 
-- Node and Express
-- Firebase
+- Local Storage
 
-### Networking
+## Features
 
-- HTTP/HTTPS
-- JSON
-- RESTful APIs
-- AJAX(Fetch, Axios)
+- Display availability of sizes based on stock amount
 
-### Persistent Store
+![size change](/gifs/stock.gif)
 
-- Web Storage
-- Cookie
+- Login with Facebook
 
-### Programming Paradigms
-
-- Object-Oriented Programming(OOP)
-- Functional Programming
-
-### Design Patterns
-
-- Module Pattern
-- Model-View-Controller(MVC) Pattern
-
-### Tools for Development
-
-- Webpack
-- ESLint
-- Prettier
-- Git, GitHub
-
-### Tools for Business
-
-- Google Analytics
-- Google PageSpeed Insights
+![login](/gifs/login.gif)
